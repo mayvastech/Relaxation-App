@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #224941 url("./img/bg.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    color: #fff;
+}
