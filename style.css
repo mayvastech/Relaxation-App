@@ -54,7 +54,7 @@ body {
   left: 0;
   z-index: -1;
 }
-
+/* Pointer Styling */
 .pointer-container {
  position: absolute;
   top: -40px;
