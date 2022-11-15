@@ -9,14 +9,14 @@ const holdTime = totalTime / 5;
 
 breatheAnimation();
 function breatheAnimation() {
-  text.textContent = "Breathe in";
+  text.innerHTML = "Breathe in";
   container.className = "container grow";
 
   setTimeout(() => {
-    text.textContent = "Hold";
+    text.innerHTML = "Hold";
 
     setTimeout(() => {
-      text.textContent = "Breathe out";
+      text.innerHTML = "Breathe out";
       container.className = "container shrink";
     }, holdTime);
   }, breatheTime);
